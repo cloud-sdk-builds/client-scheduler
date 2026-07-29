@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-scheduler`](https://www.npmjs.com/package/@aws-sdk/client-scheduler/v/3.1097.0).
+[`@aws-sdk/client-scheduler`](https://www.npmjs.com/package/@aws-sdk/client-scheduler/v/3.1098.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-scheduler - [https://cloud-sdk-builds.github.io/?sdk=client-scheduler](https://cloud-sdk-builds.github.io/?sdk=client-scheduler)
-- @aws-sdk/client-scheduler v3.1097.0 - [https://cloud-sdk-builds.github.io/?sdk=client-scheduler&version=3.1097.0](https://cloud-sdk-builds.github.io/?sdk=client-scheduler&version=3.1097.0)
+- @aws-sdk/client-scheduler v3.1098.0 - [https://cloud-sdk-builds.github.io/?sdk=client-scheduler&version=3.1098.0](https://cloud-sdk-builds.github.io/?sdk=client-scheduler&version=3.1098.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1097.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1098.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-0/sChNw+XIr0Tmi/7tLF6TA4B41v0lCcZQ87w9/4Ts4UkQPBZsZO9UiTB6GuGr2u
+sha384-zQApNkuJoi0wNlvUTicU03O8dz2Rsj7g2jTIbi9sBDV5Xcd4wnBoHD9WRWpf4C5u
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-scheduler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1097.0/index.min.mjs"
+            "@aws-sdk/client-scheduler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1098.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1097.0/index.min.mjs": "sha384-0/sChNw+XIr0Tmi/7tLF6TA4B41v0lCcZQ87w9/4Ts4UkQPBZsZO9UiTB6GuGr2u"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1098.0/index.min.mjs": "sha384-zQApNkuJoi0wNlvUTicU03O8dz2Rsj7g2jTIbi9sBDV5Xcd4wnBoHD9WRWpf4C5u"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-scheduler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1097.0/index.min.mjs"
+                        "@aws-sdk/client-scheduler": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1098.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1097.0/index.min.mjs": "sha384-0/sChNw+XIr0Tmi/7tLF6TA4B41v0lCcZQ87w9/4Ts4UkQPBZsZO9UiTB6GuGr2u"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-scheduler@3.1098.0/index.min.mjs": "sha384-zQApNkuJoi0wNlvUTicU03O8dz2Rsj7g2jTIbi9sBDV5Xcd4wnBoHD9WRWpf4C5u"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1097.0`)
+* Always pin to a specific version (`@3.1098.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-scheduler/blob/refs/tags/3.1097.0/LICENSE
+https://github.com/cloud-sdk-builds/client-scheduler/blob/refs/tags/3.1098.0/LICENSE
 ```
 
 ---
